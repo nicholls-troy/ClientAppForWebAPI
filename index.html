@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        table, td, th {
+            border: black solid thin;
+            border-collapse: collapse;
+        }
+
+        div table {
+            float: left;
+            margin: 10px;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+</head>
+<body>
+    <button onclick="getUsers()">Get Users</button>
+
+    <div>
+        
+        <table id="userTable"></table>
+        <table id="userDataTable"></table>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
